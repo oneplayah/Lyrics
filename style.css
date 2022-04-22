@@ -1,2 +1,31 @@
 html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+
+    
+}
+
+@media (max-width:750px) {
+    .headSplit {
+        font-size: 10px;
+    }
+}
+
+.head_wrap{
+    justify-content: space-between;
+    display: flex;
+    font-size: 30px;
+    background-color: lightslategray;
+    margin: 0 auto;
+}
+
+.text1{
+    width: 20%;
+    height: auto;
 }
